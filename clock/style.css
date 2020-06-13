@@ -1,0 +1,109 @@
+body{
+    background-color: burlywood;
+    text-align: center;
+}
+.clock{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px white solid;
+    padding: 3px;
+    margin-top: 250px;
+    margin-left: 500px;
+    background-color: gray;
+    box-shadow: 0 0 3px #FF0000;
+}
+.clock-face{
+    
+    margin-top: 75px;
+    position: relative;
+    transform: translateY(-3px)
+
+    
+}
+.hand {
+    height: 4px;
+    width: 50%;
+    background-color: black;
+    position: absolute;
+    top: 30%;
+    transform-origin:100% ;
+   transition-timing-function: cubic-bezier(0.02, 1.63, 0.58, 1);
+    transform: rotate(90deg);
+    transition: 0.07s;
+    margin-top: 0px;
+
+}
+.hour-hand{
+    width: 25%;
+    right: 75px;
+}
+.sec-hand{
+    height: 2px;
+}
+
+.t{
+    text-align: center;
+    /* margin-left: 65px; */
+    position: absolute;
+}
+.t12{
+    margin-left: 65px;
+    
+}
+.t1{
+  margin-top: 10px;
+  margin-left: 100px;
+
+
+}
+.t2{
+    margin-top: 35px;
+    margin-left: 125px;
+  
+  
+  }
+  .t3{
+    margin-top: 65px;
+    margin-left: 130px;
+  
+  
+  } 
+  .t4{
+    margin-top: 100px;
+    margin-left: 125px;
+  
+  
+  }
+  .t5{
+    margin-top: 120px;
+    margin-left: 100px;
+  
+  
+  }
+.t6{
+    margin-left: 65px;
+    margin-top: 130px;
+    
+}
+.t7{
+    margin-left: 30px;
+    margin-top: 120px;
+}
+.t8{
+    margin-left: 10px;
+    margin-top: 100px;
+}
+.t9{
+    margin-top: 65px;
+    margin-left: 0px;   
+}
+.t10{
+    margin-top: 35px;
+    margin-left: 10px;
+
+}
+.t11{
+    margin-top: 10px ;
+    margin-left: 30px;
+}
